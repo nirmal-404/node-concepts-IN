@@ -6,3 +6,9 @@
 - **Buffers**: Creating, Writing, and Reading Buffers
 - **Streams**: Readable, Writable, Duplex, and Transform Streams
 - **Encrypting Files Using Streams**
+
+### Middleware & API Handling
+- **Custom Middleware**
+- **Error Handling**: Async Handler, Global Error Middleware
+- **Rate Limiting**
+- **API Versioning Strategies**: URL, Header, Content-Type

@@ -1,0 +1,11 @@
+npm init -y
+
+npm i nodemon --save-dev
+
+scrips
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+    
+npm i express dotenv cors
+
+npm i express-rate-limit

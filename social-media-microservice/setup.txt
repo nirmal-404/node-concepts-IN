@@ -61,6 +61,16 @@ JWT_SECRET=
 24. install package -> prevents ddos and bruteforce attack prevnetion
 identity-service>npm i rate-limiter-flexible
 
-REDIS_URL=redis://localhost:6379 in .evn
+25. REDIS_URL=redis://localhost:6379 in .evn
 -----------------------------------------end of todo in identity service-----------------------------------------
+
+-----------------------------------------todo in api-gateway-----------------------------------------
+
+26. create logger.js in utils folder in src (api-gateway>src>utils>logger.js)
+
+27. create errorHandler.js in middleware folder in src 
+
+28. api-gateway> npm i express-rate-limit rate-limit-redis
+
+-----------------------------------------end of todo in api-gateway-----------------------------------------
 

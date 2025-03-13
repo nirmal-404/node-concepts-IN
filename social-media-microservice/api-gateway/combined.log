@@ -68,3 +68,56 @@
 {"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-13T11:49:37.660Z"}
 {"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-13T11:49:37.663Z"}
 {"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2025-03-13T11:49:37.664Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/register","service":"api-gateway","timestamp":"2025-03-13T11:52:56.665Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T11:52:56.666Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/register","service":"api-gateway","timestamp":"2025-03-13T11:53:28.865Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T11:53:28.866Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-13T19:26:22.346Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-13T19:26:22.349Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2025-03-13T19:26:22.349Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/register","service":"api-gateway","timestamp":"2025-03-13T19:27:18.934Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T19:27:18.935Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-13T19:27:30.416Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T19:27:30.417Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-13T20:01:13.528Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:01:13.529Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:01:50.564Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:01:50.565Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:07:51.917Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:07:51.918Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:08:49.549Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:08:49.550Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:10:27.634Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:10:27.634Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:14:02.743Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:14:02.743Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:14:22.765Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:14:22.765Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:15:23.092Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:15:23.093Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:16:12.816Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:16:12.816Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:18:29.044Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:18:29.045Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:19:50.228Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:19:50.229Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:23:00.790Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:23:00.791Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:24:41.851Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:24:41.852Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:25:33.263Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:25:33.264Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:25:37.793Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:25:37.794Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/refresh-token","service":"api-gateway","timestamp":"2025-03-13T20:26:00.854Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:26:00.854Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/logout","service":"api-gateway","timestamp":"2025-03-13T20:26:39.214Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:26:39.214Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/logout","service":"api-gateway","timestamp":"2025-03-13T20:27:36.546Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:27:36.547Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-13T20:30:32.440Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:30:32.441Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-13T20:30:43.017Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:30:43.018Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/logout","service":"api-gateway","timestamp":"2025-03-13T20:35:40.467Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-13T20:35:40.468Z"}

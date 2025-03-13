@@ -1,0 +1,66 @@
+1. api-gateway> npm init -y 
+   identity-service> npm init -y
+
+2. api-gateway> npm i nodemon --save-dev
+
+3. create src folder and create server.js inside src in api-gateway
+    (api-gateway/src/server.js)
+
+4. modify the pakage.json in api-gateway
+"start" : "node src/server.js",
+"dev" : "nodemon src/server.js"
+
+
+5. api-gateway> npm i cors dotenv express express-http-proxy helmet ioredis jsonwebtoken winston  
+
+-----------------------------------------todo in identity-service-----------------------------------------
+
+6. identity-service> npm i nodemon --save-dev
+
+7. identity-service> npm i cors argon2 dotenv express express-rate-limit helmet ioredis joi jsonwebtoken mongoose rate-limit-redis winston
+
+8. create src folder and create server.js inside src in identity-service
+    (api-gateway/src/server.js)
+
+9. modify the pakage.json in identity-service
+"start" : "node src/server.js",
+"dev" : "nodemon src/server.js"
+
+10. create .env in identity-service
+PORT=3001
+MONGO_URI=
+JWT_SECRET=
+
+11. create models, middleware, utils, routes, controllers folders in src in identity-service
+
+12. create User.js in models
+
+13. create logger.js in utils
+-- refer winson doc in npmjs
+
+14. create errorHandler.js in middleware
+
+15. create identity-controller.js (no impl)
+
+16. create RefreshToken.js in models
+
+17. start implementing identity-controller.js
+
+18. create validateion.js in utils
+
+19. continue with implemnting identitiy-controller.js
+
+20. create generateToken.js in utls
+
+21. complete registraion method identitiy-controller.js
+
+22. create identitiy-service.js in routes
+
+23. startimpl server.js
+
+24. install package -> prevents ddos and bruteforce attack prevnetion
+identity-service>npm i rate-limiter-flexible
+
+REDIS_URL=redis://localhost:6379 in .evn
+-----------------------------------------end of todo in identity service-----------------------------------------
+

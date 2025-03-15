@@ -2,3 +2,7 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-15T04:00:27.887Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-15T04:00:48.002Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-15T04:35:54.352Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T07:20:06.669Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T07:20:06.670Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T07:20:50.300Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T07:21:58.804Z"}

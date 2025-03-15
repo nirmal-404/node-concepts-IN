@@ -35,8 +35,8 @@ app.use(express.json());
 // });
 
 const createPostLimiter = rateLimit({
-    windowMs: 1* 60 * 1000,
-    limit: 10, // 10 requests in 1 min
+    windowMs: 15* 60 * 1000,
+    limit: 50, // 50 requests in 15 min
     standardHeaders: 'draft-8',
     legacyHeaders: false,
     handler: (req, res) => {

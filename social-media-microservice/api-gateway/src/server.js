@@ -17,13 +17,14 @@ const redisClient = new Redis(process.env.REDIS_URL)
 
 app.use(helmet())
 app.use(cors())
-app.use(express.json())
+app.use(express.json({ limit: "2mb" })); 
+app.use(express.urlencoded({ limit: "2mb", extended: true })); 
 
 // rate limiting
 
 const ratelimitOptions = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes 
-    limit: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes).
+    limit: 200, // Limit each IP to 100 requests per `window` (here, per 15 minutes).
     standardHeaders: 'draft-8', // draft-6: `RateLimit-*` headers; draft-7 & draft-8: combined `RateLimit` header
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers.
     handler: (req, res) => {
@@ -86,6 +87,31 @@ app.use('/v1/posts', validateToken, proxy(process.env.POST_SERVICE_URL, {
 }
 ))
 
+// setting up proxy for media-service
+app.use(
+    "/v1/media",
+    validateToken,
+    proxy(process.env.MEDIA_SERVICE_URL, {
+      ...proxyOptions,
+      proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+        if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+          proxyReqOpts.headers["Content-Type"] = "application/json";
+        }
+  
+        return proxyReqOpts;
+      },
+      userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(
+          `Response received from media service: ${proxyRes.statusCode}`
+        );
+  
+        return proxyResData;
+      },
+      parseReqBody: false,
+    })
+  );
+
 
 app.use(errorHandler);
 
@@ -93,5 +119,6 @@ app.listen(PORT, () => {
     logger.info(`API Gateway is running on port ${PORT}`)
     logger.info(`Identity Service is running on port ${process.env.IDENTITY_SERVICE_URL}`)
     logger.info(`Post Service is running on port ${process.env.POST_SERVICE_URL}`)
+    logger.info(`Media Service is running on port ${process.env.MEDIA_SERVICE_URL}`)
     logger.info(`Redis url ${process.env.REDIS_URL}`)
 })

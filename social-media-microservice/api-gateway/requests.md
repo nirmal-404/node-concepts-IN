@@ -130,3 +130,57 @@
     "message": "Post created successfully"
 }
 ```
+
+
+# Get all posts Endpoint Demo Request
+
+## Endpoint
+
+**URL:**\
+`GET http://localhost:3000/v1/posts/all-posts`
+
+
+## Response (Success)
+
+```json
+{
+    "posts": [
+        {
+            "_id": "",
+            "user": "",
+            "content": "",
+            "mediaIds": [],
+            "createdAt": "",
+            "updatedAt": "",
+            "__v": 0
+        },
+
+    ],
+    "currentpage": <pgno>,
+    "totalPages": <total_pages>,
+    "totalPosts": ,tototal_posts
+}
+```
+
+
+# Get a single post Endpoint Demo Request
+
+## Endpoint
+
+**URL:**\
+`GET http://localhost:3000/v1/posts/67d52a9ce48b9fdb1c25ac4c`
+
+
+## Response (Success)
+
+```json
+{
+    "_id": "",
+    "user": "",
+    "content": "",
+    "mediaIds": [],
+    "createdAt": "",
+    "updatedAt": "",
+    "__v": 
+}
+```

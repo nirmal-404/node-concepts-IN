@@ -847,3 +847,59 @@
 {"level":"info","message":"Received POST reqest to /v1/media/upload","service":"api-gateway","timestamp":"2025-03-15T17:31:16.151Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T17:31:16.152Z"}
 {"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-03-15T17:31:19.896Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-03-15T20:11:46.711Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-03-15T20:11:46.718Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-03-15T20:11:46.719Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-03-15T20:11:46.719Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2025-03-15T20:11:46.720Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-15T20:13:10.635Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:13:10.636Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-15T20:13:10.666Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-15T20:13:26.226Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:13:26.227Z"}
+{"level":"info","message":"Received GET reqest to /v1/media/get","service":"api-gateway","timestamp":"2025-03-15T20:14:24.597Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:14:24.599Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-03-15T20:14:24.610Z"}
+{"level":"info","message":"Received GET reqest to /v1/media/get","service":"api-gateway","timestamp":"2025-03-15T20:16:36.493Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:16:36.495Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-15T20:16:36.508Z"}
+{"level":"info","message":"Received GET reqest to /v1/media/get","service":"api-gateway","timestamp":"2025-03-15T20:17:25.006Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:17:25.008Z"}
+{"level":"info","message":"Response received from media service: 200","service":"api-gateway","timestamp":"2025-03-15T20:17:25.273Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-15T20:47:46.725Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:47:46.726Z"}
+{"level":"info","message":"Received POST reqest to /v1/media/upload","service":"api-gateway","timestamp":"2025-03-15T20:48:27.552Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:48:27.553Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-03-15T20:48:36.079Z"}
+{"level":"info","message":"Received POST reqest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-15T20:49:33.029Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:49:33.030Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T20:49:33.031Z"}
+{"level":"info","message":"Received POST reqest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-15T20:49:43.397Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:49:43.397Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T20:50:03.418Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:50:03.419Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d5e7e7d37c0139df1a1150","service":"api-gateway","timestamp":"2025-03-15T20:52:20.985Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:52:20.985Z"}
+{"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-03-15T20:53:44.854Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d5e7e7d37c0139df1a1150","service":"api-gateway","timestamp":"2025-03-15T20:55:13.192Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:55:13.193Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T20:56:01.699Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d5e7e7d37c0139df1a1150","service":"api-gateway","timestamp":"2025-03-15T20:56:28.520Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:56:28.522Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T20:58:35.844Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d5e7e7d37c0139df1a1150","service":"api-gateway","timestamp":"2025-03-15T20:58:50.695Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:58:50.696Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T20:58:59.157Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:58:59.158Z"}
+{"level":"info","message":"Received POST reqest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-15T20:59:39.809Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:59:39.811Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T20:59:46.731Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T20:59:46.732Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d5ea3b42698ddedc1359c1","service":"api-gateway","timestamp":"2025-03-15T21:00:05.860Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T21:00:05.861Z"}
+{"level":"info","message":"Received POST reqest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-15T21:00:38.647Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T21:00:38.648Z"}
+{"level":"info","message":"Received POST reqest to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-03-15T21:00:40.928Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T21:00:40.929Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T21:01:27.885Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T21:01:27.887Z"}

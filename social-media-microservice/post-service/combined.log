@@ -1,0 +1,208 @@
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T02:45:36.758Z"}
+{"level":"error","message":"Mongo connection error The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"post-service","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\mongoose.js:446:15)\n    at Object.<anonymous> (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\server.js:19:6)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-03-15T02:45:36.763Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T02:45:58.165Z"}
+{"level":"error","message":"Mongo connection error The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"post-service","stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.createClient (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:236:11)\n    at NativeConnection.openUri (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\connection.js:1071:34)\n    at Mongoose.connect (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\mongoose.js:446:15)\n    at Object.<anonymous> (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\server.js:19:6)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)\n    at Module._load (node:internal/modules/cjs/loader:1024:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-03-15T02:45:58.169Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T02:46:30.032Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T02:46:31.386Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T02:46:40.716Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T02:46:41.978Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:51:54.695Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T03:51:56.295Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:52:26.838Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:52:27.882Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:52:29.248Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T03:52:30.476Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:52:34.257Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T03:52:35.539Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:52:40.259Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T03:52:41.505Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T03:57:31.078Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T03:57:32.968Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:13:30.061Z"}
+{"level":"error","message":"Error creating post Post is not defined","service":"post-service","stack":"ReferenceError: Post is not defined\n    at createPost (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\controllers\\post-controller.js:7:35)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at authenticateRequest (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\middleware\\authMiddleware.js:15:3)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-03-15T04:13:30.062Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:13:45.520Z"}
+{"level":"error","message":"Error creating post Post is not defined","service":"post-service","stack":"ReferenceError: Post is not defined\n    at createPost (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\controllers\\post-controller.js:7:35)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at authenticateRequest (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\src\\middleware\\authMiddleware.js:15:3)\n    at Layer.handle [as handle_request] (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\express\\lib\\router\\layer.js:95:5)","timestamp":"2025-03-15T04:13:45.521Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:13:46.505Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:13:47.021Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:13:50.583Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:15:12.357Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:17:46.253Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:17:47.537Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:17:55.477Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:21:29.890Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:23:42.642Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:23:43.974Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:23:53.531Z"}
+{"_message":"Post validation failed","errors":{"content":{"kind":"required","message":"Path `content` is required.","name":"ValidatorError","path":"content","properties":{"message":"Path `content` is required.","path":"content","type":"required"}}},"level":"error","message":"Error creating post Post validation failed: content: Path `content` is required.","service":"post-service","stack":"ValidationError: Post validation failed: content: Path `content` is required.\n    at Document.invalidate (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\document.js:3329:32)\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\document.js:3090:17\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-03-15T04:23:53.539Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:23:56.726Z"}
+{"_message":"Post validation failed","errors":{"content":{"kind":"required","message":"Path `content` is required.","name":"ValidatorError","path":"content","properties":{"message":"Path `content` is required.","path":"content","type":"required"}}},"level":"error","message":"Error creating post Post validation failed: content: Path `content` is required.","service":"post-service","stack":"ValidationError: Post validation failed: content: Path `content` is required.\n    at Document.invalidate (D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\document.js:3329:32)\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\document.js:3090:17\n    at D:\\desktop files\\my projects\\node intermediate\\social-media-microservice\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-03-15T04:23:56.728Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:25:04.817Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:25:04.949Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:31:15.688Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:31:17.234Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:31:18.059Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:31:19.159Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:31:59.236Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:32:00.477Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:32:44.471Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:32:45.972Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:32:52.363Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:32:53.497Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:33:00.258Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:33:01.454Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:33:09.252Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:33:10.516Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:33:18.482Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:33:19.612Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:33:23.856Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:33:25.064Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:33:26.039Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:33:27.158Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:34:35.463Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:34:36.895Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:34:37.667Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:34:39.028Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:34:45.844Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:34:47.228Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:34:48.498Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:34:49.691Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:35:02.161Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:35:03.422Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:36:34.373Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:36:35.776Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:37:03.246Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:37:04.456Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:37:11.410Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validation error","service":"post-service","timestamp":"2025-03-15T04:37:11.416Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:38:15.378Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:39:24.461Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:39:26.316Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:39:32.127Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:39:33.418Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:39:34.983Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:39:35.130Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:39:36.504Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:39:36.632Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:39:37.590Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:39:37.709Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:39:38.618Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:39:38.741Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:39:39.526Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:39:39.658Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:39:40.434Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:39:41.177Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:39:42.067Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:46:59.507Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:47:51.156Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:47:52.708Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:47:58.411Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:48:19.082Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:49:27.935Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:49:29.537Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:38.237Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:49:39.631Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:42.490Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:49:43.668Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:46.433Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:49:47.605Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:55.101Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:56.706Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:49:57.871Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:49:59.654Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:50:00.859Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:50:03.766Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:50:44.890Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:50:46.799Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:50:48.020Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:50:49.378Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:02.197Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:02.618Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:03.071Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:51:13.184Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:51:14.475Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:19.348Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:53.826Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:55.708Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:56.580Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:51:57.046Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:13.437Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:13.934Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:14.416Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:14.952Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:15.434Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:15.919Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:16.480Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:16.918Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:17.541Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:18.186Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:18.835Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:19.303Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:20.104Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:21.018Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:22.047Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:22.886Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:23.636Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:24.359Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:25.085Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:25.796Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:26.515Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:27.240Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:27.961Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:28.645Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:29.355Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:30.030Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:52:30.812Z"}
+{"level":"info","message":"Post service is running on port 3002","service":"post-service","timestamp":"2025-03-15T04:53:41.132Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-03-15T04:53:42.408Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:55:59.462Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:55:59.602Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:56:04.814Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:56:04.942Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:56:06.572Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:56:06.686Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-03-15T04:56:07.855Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-03-15T04:56:07.969Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:56:08.896Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:56:33.900Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:27.811Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:29.089Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:29.870Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:30.551Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:31.196Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:31.927Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:32.661Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:33.279Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:33.859Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:34.428Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:35.131Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:35.681Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:36.149Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:36.556Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:37.256Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:37.834Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:39.078Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:39.919Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:40.851Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:41.348Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:42.349Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:42.850Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:43.456Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:43.989Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:44.522Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:45.050Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:45.643Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:46.084Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:46.647Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:47.033Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:47.462Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:47.999Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:48.639Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:49.127Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:49.662Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:50.348Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:50.877Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:51.347Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:52.162Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:53.111Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:53.593Z"}
+{"level":"warn","message":"create-post endpoint rate limit exceeded for IP ::1","service":"post-service","timestamp":"2025-03-15T04:57:54.202Z"}

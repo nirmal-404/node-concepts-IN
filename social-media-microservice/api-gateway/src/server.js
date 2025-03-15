@@ -8,6 +8,7 @@ const { RedisStore } = require('rate-limit-redis')
 const logger = require('./utils/logger')
 const proxy = require('express-http-proxy')
 const errorHandler = require('./middleware/errorHandler')
+const { validateToken } = require("./middleware/authMiddleware");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -27,7 +28,7 @@ const ratelimitOptions = rateLimit({
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers.
     handler: (req, res) => {
         logger.warn(`Sensitive endpoint rate limit exceeded for IP ${req.ip}`);
-        res.status(429).send({ success: false, message: 'Too many requests' });
+        res.status(429).send({ success: false, message: 'Too many requests for gateway' });
     },
     store: new RedisStore({
         sendCommand: (...args) => redisClient.call(...args),
@@ -50,7 +51,7 @@ const proxyOptions = {
     proxyErrorHandler: (err, res, next) => {
         logger.error(`Proxy error: ${err.message}`)
         res.status(500).json({
-            message: "Internal sever error", error : err.message
+            message: "Internal sever error", error: err.message
         })
     }
 }
@@ -69,10 +70,28 @@ app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
     }
 }));
 
+// setting up proxy for post-service
+app.use('/v1/posts', validateToken, proxy(process.env.POST_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+        console.log(`Proxy Request Headers:`, proxyReqOpts.headers);
+        return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        console.log(`Response from Post Service: ${proxyRes.statusCode}`);
+        return proxyResData;
+    }
+}
+))
+
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
     logger.info(`API Gateway is running on port ${PORT}`)
     logger.info(`Identity Service is running on port ${process.env.IDENTITY_SERVICE_URL}`)
+    logger.info(`Post Service is running on port ${process.env.POST_SERVICE_URL}`)
     logger.info(`Redis url ${process.env.REDIS_URL}`)
 })

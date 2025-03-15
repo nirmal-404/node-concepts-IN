@@ -105,3 +105,28 @@
     "message": "User logged out successfully"
 }
 ```
+
+
+# Add post Endpoint Demo Request
+
+## Endpoint
+
+**URL:**\
+`POST http://localhost:3000/v1/posts/create-post`
+
+## Request Body
+
+```json
+{
+    "content" : "<content>"
+}
+```
+
+## Response (Success)
+
+```json
+{
+    "success": true,
+    "message": "Post created successfully"
+}
+```

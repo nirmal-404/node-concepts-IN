@@ -573,3 +573,45 @@
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T07:39:38.286Z"}
 {"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T07:39:39.743Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T07:39:39.744Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:33:27.505Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:33:27.505Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:33:27.506Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:33:34.194Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:33:34.195Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:33:34.197Z"}
+{"level":"info","message":"Received POST reqest to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-15T08:33:39.814Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:33:39.814Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T08:33:54.825Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:33:54.825Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T08:34:00.650Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:34:00.651Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:34:28.026Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:34:28.026Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-03-15T08:34:28.027Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:34:43.941Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:34:43.941Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:34:49.864Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:34:49.864Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:34:49.866Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T08:34:55.227Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:34:55.227Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:35:03.274Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:35:03.275Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:35:03.276Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:35:43.656Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:35:43.656Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:35:43.657Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:36:06.347Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:36:06.348Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T08:36:06.349Z"}
+{"level":"info","message":"Received DELETE reqest to /v1/posts/67d52a9ce48b9fdb1c25ac4c","service":"api-gateway","timestamp":"2025-03-15T08:36:10.025Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T08:36:10.025Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T09:29:03.851Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T09:29:03.852Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52a1397cf729499e32486","service":"api-gateway","timestamp":"2025-03-15T09:29:15.969Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T09:29:15.970Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2025-03-15T09:29:15.971Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/all-posts","service":"api-gateway","timestamp":"2025-03-15T09:29:27.610Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T09:29:27.611Z"}
+{"level":"info","message":"Received GET reqest to /v1/posts/67d52aa9e48b9fdb1c25ac50","service":"api-gateway","timestamp":"2025-03-15T09:29:44.914Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-03-15T09:29:44.914Z"}

@@ -46,7 +46,7 @@ app.use((req, res, next) => {
         .then(() => { next() })
         .catch(() => {
             logger.warn(`Rate limit exceeded for IP: ${req.ip}`);
-            res.status(429).send({ success: false, message: 'Too many requests' });
+            res.status(429).send({ success: false, message: 'Too many requests for identity-service' });
         })
 })
 
@@ -59,7 +59,7 @@ const sensitiveEndpointsLimiter = rateLimit({
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers.
     handler: (req, res) => {
         logger.warn(`Sensitive endpoint rate limit exceeded for IP ${req.ip}`);
-        res.status(429).send({ success: false, message: 'Too many requests' });
+        res.status(429).send({ success: false, message: 'Too many requests for identity-service' });
     },
     store: new RedisStore({
         sendCommand: (...args) => redisClient.call(...args),

@@ -17,8 +17,8 @@ const redisClient = new Redis(process.env.REDIS_URL)
 
 app.use(helmet())
 app.use(cors())
-app.use(express.json({ limit: "2mb" })); 
-app.use(express.urlencoded({ limit: "2mb", extended: true })); 
+app.use(express.json({ limit: "2mb" }));
+app.use(express.urlencoded({ limit: "2mb", extended: true }));
 
 // rate limiting
 
@@ -88,29 +88,42 @@ app.use('/v1/posts', validateToken, proxy(process.env.POST_SERVICE_URL, {
 ))
 
 // setting up proxy for media-service
-app.use(
-    "/v1/media",
-    validateToken,
-    proxy(process.env.MEDIA_SERVICE_URL, {
-      ...proxyOptions,
-      proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+app.use("/v1/media", validateToken, proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
         proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
         if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
-          proxyReqOpts.headers["Content-Type"] = "application/json";
+            proxyReqOpts.headers["Content-Type"] = "application/json";
         }
-  
+
         return proxyReqOpts;
-      },
-      userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
         logger.info(
-          `Response received from media service: ${proxyRes.statusCode}`
+            `Response received from media service: ${proxyRes.statusCode}`
         );
-  
+
         return proxyResData;
-      },
-      parseReqBody: false,
-    })
-  );
+    },
+    parseReqBody: false,
+}
+));
+
+// setting up proxy for search service
+app.use('/v1/search', validateToken, proxy(process.env.SEARCH_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+        console.log(`Proxy Request Headers:`, proxyReqOpts.headers);
+        return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        console.log(`Response from Post Service: ${proxyRes.statusCode}`);
+        return proxyResData;
+    }
+}
+));
 
 
 app.use(errorHandler);
@@ -120,5 +133,6 @@ app.listen(PORT, () => {
     logger.info(`Identity Service is running on port ${process.env.IDENTITY_SERVICE_URL}`)
     logger.info(`Post Service is running on port ${process.env.POST_SERVICE_URL}`)
     logger.info(`Media Service is running on port ${process.env.MEDIA_SERVICE_URL}`)
+    logger.info(`Search Service is running on port ${process.env.SEARCH_SERVICE_URL}`)
     logger.info(`Redis url ${process.env.REDIS_URL}`)
 })

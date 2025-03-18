@@ -13,3 +13,9 @@
 {"level":"error","message":"Proxy error: socket hang up","service":"api-gateway","timestamp":"2025-03-15T20:53:44.854Z"}
 {"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T20:56:01.699Z"}
 {"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-15T20:58:35.844Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-16T09:04:06.229Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-16T09:04:46.856Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-16T09:07:07.363Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-03-16T09:08:04.790Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-18T07:51:56.212Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-03-18T08:07:38.782Z"}
